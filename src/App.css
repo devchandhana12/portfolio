@@ -3,6 +3,7 @@
   background-color: black;
   cursor: none;
   height: 100vh;
+  color: white;
 }
 
 .cursor-dot {
@@ -19,9 +20,9 @@
 .cursor-dot,
 .cursor-dot-outline {
   position: fixed;
-  /* top: 0;
-  left: 0;  */
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  /* transform: translate(-20%, -20%); */
   pointer-events: none;
   z-index: 1000;
   border-radius: 50%;
